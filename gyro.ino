@@ -2,7 +2,7 @@
 
 #include "Wire.h" // This library allows you to communicate with I2C devices.
 
-const int MPU_ADDR = 0x68; // I2C address of the MPU-6050. If AD0 pin is set to HIGH, the I2C address will be 0x69.
+const int MPU_ADDR = 0x68 // I2C address of the MPU-6050. If AD0 pin is set to HIGH, the I2C address will be 0x69.
 
 int16_t accelerometer_x, accelerometer_y, accelerometer_z; // variables for accelerometer raw data
 int16_t gyro_x, gyro_y, gyro_z; // variables for gyro raw data
