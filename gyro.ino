@@ -1,6 +1,6 @@
 // (c) Michael Schoeffler 2017, http://www.mschoeffler.de
 
-#include "Wire.h" // This library allows you to communicate with I2C devices.
+//#include "Wire.h" // This library allows you to communicate with I2C devices.
 
 const int MPU_ADDR = 0x68; // I2C address of the MPU-6050. If AD0 pin is set to HIGH, the I2C address will be 0x69.
 
